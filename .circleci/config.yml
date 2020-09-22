@@ -11,4 +11,3 @@ jobs:
       - checkout
       - run: dotnet restore
       - run: dotnet build
-      - run: dotnet /temp/DotnetCoreCircleCI/bin/Debug/netcoreapp3.1/DotnetCoreCircleCI.dll
